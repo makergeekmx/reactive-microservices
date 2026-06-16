@@ -1,0 +1,17 @@
+server:
+  port: 8083
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/supplierdb
+    username: appuser
+    password: apppassword
+  kafka:
+    bootstrap-servers: localhost:9092
+logging:
+  level:
+    root: INFO
+
+app:
+  kafka:
+    topics:
+      supplier-order: supplier-order

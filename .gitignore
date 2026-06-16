@@ -1,0 +1,10 @@
+target/
+**/target/
+*.log
+*.tmp
+*.bak
+node_modules/
+.DS_Store
+.vscode/
+.idea/
+*.iml

@@ -1,0 +1,21 @@
+server:
+  port: 8081
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/productdb
+    username: appuser
+    password: apppassword
+  kafka:
+    bootstrap-servers: localhost:9092
+  flyway:
+    enabled: false
+logging:
+  level:
+    root: INFO
+    org.springframework.r2dbc: DEBUG
+
+app:
+  kafka:
+    topics:
+      inventory-update: inventory-update
+      supplier-order: supplier-order

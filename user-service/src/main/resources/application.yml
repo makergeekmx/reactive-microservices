@@ -1,0 +1,10 @@
+server:
+  port: 8084
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/userdb
+    username: appuser
+    password: apppassword
+logging:
+  level:
+    root: INFO
