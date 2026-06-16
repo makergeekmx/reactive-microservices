@@ -6,6 +6,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>product-service</name>
+    <description>Servicio de productos y categorías: CRUD de productos y categorías con WebFlux y R2DBC.</description>
     <properties>
         <java.version>21</java.version>
         <spring.boot.version>3.2.4</spring.boot.version>

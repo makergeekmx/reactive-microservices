@@ -4,6 +4,7 @@
     <groupId>com.example</groupId>
     <artifactId>inventory-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <description>Servicio de inventario: gestión reactiva de existencias y notificaciones de cambios mediante Kafka.</description>
     <properties>
         <java.version>21</java.version>
         <spring.boot.version>3.2.4</spring.boot.version>

@@ -4,6 +4,7 @@
     <groupId>com.example</groupId>
     <artifactId>supplier-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <description>Servicio de proveedores: CRUD de proveedores y órdenes de suministro con envío de eventos a Kafka.</description>
     <properties>
         <java.version>21</java.version>
         <spring.boot.version>3.2.4</spring.boot.version>
