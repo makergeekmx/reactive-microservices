@@ -7,8 +7,25 @@ Services:
 - `inventory-service` — inventory management and in/out notifications.
 - `supplier-service` — suppliers and supplier order management.
 - `user-service` — user management.
-- `notification-service` — Kafka-driven notification delivery.
-- `frontend` — React UI with Material UI and Axios.
+- `notification-service` — Kafka-driven notification delivery and event consumer.
+- `frontend` — React UI with Material UI and Axios for cross-service dashboards.
+
+## Project Structure
+
+- `product-service` — service for products and categories CRUD.
+- `inventory-service` — service for inventory management and Kafka inventory events.
+- `supplier-service` — service for supplier records and supplier order events.
+- `user-service` — service for user account CRUD operations.
+- `notification-service` — Kafka consumer that logs inventory and supplier notifications.
+- `frontend` — React dashboard consuming all backend services.
+
+## Frontend Documentation
+
+The frontend is built with React, Vite, Material UI, and Axios. It shows:
+- Product catalog cards
+- Inventory status
+- Supplier list
+- User list
 
 ## Run
 

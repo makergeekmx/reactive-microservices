@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "description": "React frontend for the reactive microservices demo, showing products, inventory, suppliers, and users.",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
