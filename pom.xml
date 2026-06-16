@@ -6,6 +6,9 @@
     <artifactId>reactive-microservices-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <name>reactive-microservices-demo</name>
+    <description>Parent project for a reactive microservices demo with Spring Boot WebFlux, Kafka, PostgreSQL, and a React frontend.</description>
+    <url>https://github.com/makergeekmx/reactive-microservices</url>
     <modules>
         <module>product-service</module>
         <module>inventory-service</module>
